@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<bookstore xmlns="http://www.contoso.com/books" xmlns:g="http://www.contoso.com/genre">
+  <book g:genre="novel" publicationdate="2010-03-01" ISBN="1-123456-15-0">
+    <title>61 Hours</title>
+    <author xmlns="http://www.contoso.com/author">
+      <first-name>Lee</first-name>
+      <last-name>Child</last-name>
+    </author>
+    <price>6.99</price>
+  </book>
+  <book g:genre="novel" publicationdate="2009-05-10" ISBN="0-123-4567-2">
+    <title>Nine Dragons</title>
+    <author xmlns="http://www.contoso.com/author">
+      <first-name>Michael</first-name>
+      <last-name>Connelly</last-name>
+    </author>
+    <price>11.99</price>
+  </book>
+  <book g:genre="autobiography" publicationdate="2004-01-01" ISBN="0-127-4567-2">
+    <title>David Beckham: My Side</title>
+    <author xmlns="http://www.contoso.com/author">
+      <first-name>David</first-name>
+      <last-name>Beckham</last-name>
+    </author>
+    <price>9.99</price>
+  </book>
+  <book g:genre="novel" publicationdate="1975-04-20" ISBN="3-456-0141-8">
+    <title>A Collection of Short Stories</title>
+    <author xmlns="http://www.contoso.com/author">
+      <first-name>Dominic</first-name>
+      <last-name>Cake</last-name>
+    </author>
+    <price>5.99</price>
+  </book>
+  <book g:genre="autobiography" publicationdate="1950-02-28" ISBN="3-563-3463-1">
+    <title>My Story</title>
+    <author xmlns="http://www.contoso.com/author">
+      <first-name>Donald</first-name>
+      <last-name>Duck</last-name>
+    </author>
+    <price>17.99</price>
+  </book>
+  <book g:genre="novel" publicationdate="1986-05-20" ISBN="1-125-8973-X">
+    <title>Tall Trees</title>
+    <author xmlns="http://www.contoso.com/author">
+      <first-name>Derek</first-name>
+      <last-name>McDowall</last-name>
+    </author>
+    <price>5.99</price>
+  </book>
+  <book g:genre="novel" publicationdate="1860-12-01" ISBN="5-245-6567-7">
+    <title>Great Expectations</title>
+    <author xmlns="http://www.contoso.com/author">
+      <first-name>Charles</first-name>
+      <last-name>Dickens</last-name>
+    </author>
+    <price>7.99</price>
+  </book>
+</bookstore>
