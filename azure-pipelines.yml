@@ -25,9 +25,9 @@ steps:
   inputs:
     solution: '$(solution)'
     configuration: '$(buildConfiguration)'
-    logFileVerbosity: 'detailed'
-    platform: 'Any CPU'
+    platform: '$(buildPlatform)'
     restoreNugetPackages: true
+    logFileVerbosity: 'detailed'
 - task: VSTest@2
   inputs:
     platform: '$(buildPlatform)'
