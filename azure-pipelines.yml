@@ -24,6 +24,9 @@ steps:
 - task: VSBuild@1
   inputs:
     solution: '$(solution)'
+    configuration: '$(buildConfiguration)'
+    logFileVerbosity: 'detailed'
+    platform: 'Any CPU'
     restoreNugetPackages: true
 - task: VSTest@2
   inputs:
