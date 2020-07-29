@@ -21,11 +21,14 @@ steps:
   inputs:
     restoreSolution: '$(solution)'
 
-- task: VSBuild@1
+- task: MSBuild@1
   inputs:
     solution: '$(solution)'
+    msbuildArchitecture: 'x64'
+    platform: '$(buildPlatform)'
+    configuration: '$(buildConfiguration)'
+    clean: true
     restoreNugetPackages: true
-    logFileVerbosity: 'detailed'
 - task: VSTest@2
   inputs:
     platform: '$(buildPlatform)'
