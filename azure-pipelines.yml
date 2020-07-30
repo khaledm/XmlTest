@@ -37,10 +37,11 @@ steps:
     Contents: |
       src\TestConsole\bin\**\*.exe
       src\TestConsole\bin\**\*.dll
+      src\TestConsole\bin\**\*.xml
     TargetFolder: '$(Build.ArtifactStagingDirectory)'
     CleanTargetFolder: true
     OverWrite: true
 - task: PublishBuildArtifacts@1
   inputs:
     pathToPublish: '$(Build.ArtifactStagingDirectory)'
-    artifactName: drop
+    artifactName: XmlTestConsoleApp
