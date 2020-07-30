@@ -34,7 +34,9 @@ steps:
 - task: CopyFiles@2
   inputs:
     SourceFolder: '$(Build.SourcesDirectory)'
-    Contents: '**\bin\**'
+    Contents: |
+      src\TestConsole\bin\**\*.exe
+      src\TestConsole\bin\**\*.dll
     TargetFolder: '$(Build.ArtifactStagingDirectory)'
     CleanTargetFolder: true
     OverWrite: true
